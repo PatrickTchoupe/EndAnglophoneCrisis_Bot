@@ -16,7 +16,7 @@ print("Twitter bot which retweets, like tweets made with the #EndAnglophoneCrisi
 
 # Change the hashtags by your choice
 
-for tweet in tweepy.Cursor(api.search, q = ('#EndAnglophoneCrisis -filter:retweets')).items(): 
+for tweet in tweepy.Cursor(api.search, q = ('#EndAnglophoneCrisis -filter:retweets'),result_type='popular').items(): 
 	try: 
 		print('\nTweet by: @' + tweet.user.screen_name) 
 
