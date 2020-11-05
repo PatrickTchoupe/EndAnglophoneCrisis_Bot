@@ -1,5 +1,7 @@
 ### EndAnglophoneCrisis_Bot
 
+Check the bot [here](https://twitter.com/EndAnglophone)
+
 This is a simple Twitter bot that retweets and likes tweets made on the EndAnglophoneCrisis hashtag.
 
 This hashtag was created to inform the international community and the general public about the crisis in the English-speaking part of Cameroon.
